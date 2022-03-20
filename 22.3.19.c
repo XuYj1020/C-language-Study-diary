@@ -26,6 +26,7 @@ float       单精度浮点数
 double      双精度浮点数
 */
 
+//各种字符类型的大小
 // #include<stdio.h>
 // int main() {
 // 	//char ch = 'a';
