@@ -18,6 +18,7 @@ This is my C language learning diary. I will record my C language learning proce
 char        字符数据类型      1byte=8bit=4字符
 
 short       短整型            2byte=16bit=8字符
+
 int         整形              4byte=32bit=16字符
 
 long        长整型            4/8byte=32/64bit=16/32字符
