@@ -17,13 +17,13 @@
 
 //第二天22.3.20
 /*数据类型
-char        字符数据类型
-short       短整型
-int         整形
-long        长整型
-long long   更长的整型
-float       单精度浮点数
-double      双精度浮点数
+char        字符数据类型      1byte=8bit=4字符
+short       短整型            2byte=16bit=8字符
+int         整形              4byte=32bit=16字符
+long        长整型            4/8byte=32/64bit=16/32字符
+long long   更长的整型        8byte=64bit=32字符
+float       单精度浮点数      4byte=32bit=16字符
+double      双精度浮点数      8byte=644bit=32字符
 */
 
 //各种字符类型的大小
