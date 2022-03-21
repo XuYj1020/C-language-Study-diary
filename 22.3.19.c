@@ -46,3 +46,35 @@ double      双精度浮点数
 // 	printf("%d\n", sizeof(double));      // 8
 //  	return 0;
 // }
+
+//第三天22.3.21
+/*
+* 全局变量和局部变量
+* 全局变量 定义在代码块{}之外的变量
+* 局部变量 定义在代码块{}之内的变量
+* 局部变量和全局变量建议不要相同，相同会出现bug
+* 局部变量和全局变量名称相同时，局部变量优先
+* 变量要定义在代码块的最前面
+* 全局变量的生命周期为整个程序的生命周期
+* 局部变量的生命周期只在作用域中
+*/
+
+/*
+#include<stdio.h>
+int age = 20;             //全局变量，生命周期为整个程序的生命周期，在整个程序任何位置可用
+int main() {
+	{int age = 40;         //局部变量,生命周期只在作用域中
+	printf("%d\n", age);   //40  调用区间变量
+	}                      
+	printf("%d\n", age);   //20  调用全局变量
+	int num1 = 0;
+	int num2 = 0;
+    int sum = 0;
+	scanf("%d%d",&num1,&num2); //取地址符 &
+	sum = num1 + num2;
+	printf("num1= %d\n", num1);
+	printf("num2= %d\n", num2);
+	printf("sum= %d\n", sum);
+	return 5;
+}
+*/
